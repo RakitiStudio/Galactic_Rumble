@@ -21,6 +21,14 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
+	@font-face {
+  		font-family: cosmicFont;
+  		src: url("../fonts/cosmic.ttf") format('truetype');
+	}
+
+	h2{
+		font-family: cosmicFont;
+	}
 
 	body {
 		line-height: 1;
